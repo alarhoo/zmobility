@@ -1,0 +1,239 @@
+<mvc:View
+	controllerName="mobility.controller.WorkOrdersDetail"
+	xmlns="sap.uxap"
+	xmlns:m="sap.m"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns:gmap="mobility.control"
+>
+	<ObjectPageLayout
+		showTitleInHeaderContent="true"
+		isChildPage="true"
+		upperCaseAnchorBar="false"
+		enableLazyLoading="true"
+		useIconTabBar="true"
+	>
+		<headerTitle>
+			<ObjectPageDynamicHeaderTitle>
+				<expandedHeading>
+					<m:Title
+						text="{workOrderDetail>Orderid} - {workOrderDetail>ActvtyDesc}"
+						wrapping="true"
+						class="sapUiSmallMarginEnd"
+					/>
+				</expandedHeading>
+				<expandedContent>
+					<m:Text text="{workOrderDetail>ShortText}" />
+				</expandedContent>
+				<snappedHeading>
+					<m:FlexBox
+						wrap="Wrap"
+						fitContainer="true"
+						alignItems="Center"
+					>
+						<m:FlexBox
+							fitContainer="true"
+							alignItems="Center"
+							class="sapUiTinyMarginEnd"
+						>
+							<m:Title
+								text="{workOrderDetail>Orderid} - {workOrderDetail>ActvtyDesc}"
+								wrapping="true"
+							/>
+						</m:FlexBox>
+					</m:FlexBox>
+				</snappedHeading>
+				<navigationActions>
+					<m:OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://full-screen"
+						press=".handleFullScreen"
+						tooltip="Enter Full Screen Mode"
+						visible="{= ${/actionButtonsInfo/midColumn/fullScreen} !== null }"
+					/>
+					<m:OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://exit-full-screen"
+						press=".handleExitFullScreen"
+						tooltip="Exit Full Screen Mode"
+						visible="{= ${/actionButtonsInfo/midColumn/exitFullScreen} !== null }"
+					/>
+					<m:OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://decline"
+						press=".handleClose"
+						tooltip="Close column"
+						visible="{= ${/actionButtonsInfo/midColumn/closeColumn} !== null }"
+					/>
+				</navigationActions>
+				<!-- <actions>
+					<m:ToggleButton
+						text="Edit"
+						type="Emphasized"
+						press=".onEditToggleButtonPress"
+					/>
+					<m:Button
+						text="Delete"
+						type="Transparent"
+					/>
+					<m:Button
+						text="Copy"
+						type="Transparent"
+					/>
+					<m:Button
+						icon="sap-icon://action"
+						type="Transparent"
+					/>
+				</actions> -->
+			</ObjectPageDynamicHeaderTitle>
+		</headerTitle>
+		<headerContent>
+			<m:FlexBox
+				wrap="Wrap"
+				fitContainer="true"
+			>
+				<m:VBox
+					justifyContent="Center"
+					class="sapUiSmallMarginEnd"
+				>
+					<m:Label text="Material" />
+					<m:Text text="{workOrderDetail>Material} / {workOrderDetail>MaterialDesc}" />
+				</m:VBox>
+				<m:VBox
+					justifyContent="Center"
+					class="sapUiSmallMarginEnd"
+				>
+					<m:Label text="Address" />
+					<m:Text text="#{workOrderDetail>HouseNo}, {workOrderDetail>Street}, {workOrderDetail>City1}, {workOrderDetail>PostCode1}, {workOrderDetail>State}, {workOrderDetail>Country}" />
+				</m:VBox>
+				<m:VBox
+					justifyContent="Center"
+					class="sapUiSmallMarginEnd"
+				>
+					<m:Label text="MRU / Dispath ID" />
+					<m:ObjectNumber
+						number="{workOrderDetail>MRU} {workOrderDetail>DispatchID}"
+						emphasized="false"
+					/>
+				</m:VBox>
+			</m:FlexBox>
+		</headerContent>
+		<sections>
+			<ObjectPageSection title="General Information">
+				<subSections>
+					<ObjectPageSubSection title="General Information">
+						<blocks>
+							<form:SimpleForm
+								editable="false"
+								layout="ResponsiveGridLayout"
+								labelSpanXL="4"
+								labelSpanM="6"
+								adjustLabelSpan="false"
+								columnsXL="3"
+								columnsM="2"
+							>
+								<form:content>
+									<core:Title text="Equipment" />
+									<m:Label text="Equipment" />
+									<m:Text text="{workOrderDetail>Equipment}" />
+									<m:Label text="Equipment Description" />
+									<m:Text text="{workOrderDetail>EquipmentDesc}" />
+									<m:Label text="EquipmentDisplay" />
+									<m:Text text="{workOrderDetail>EquipmentDisplay}" />
+									<core:Title text="Functional Location" />
+									<m:Label text="Func. Loc." />
+									<m:Text text="{workOrderDetail>Funcloc}" />
+									<m:Label text="Func Loc Description" />
+									<m:Text text="{workOrderDetail>FunclocDesc}" />
+									<m:Label text="FunclocDisp" />
+									<m:Text text="{workOrderDetail>FunclocDisp}" />
+									<core:Title text="Meter Details" />
+									<m:Label text="Material" />
+									<m:Text text="{workOrderDetail>Material}" />
+									<m:Label text="Material Description" />
+									<m:Text text="{workOrderDetail>MaterialDesc}" />
+									<m:Label text="MRU" />
+									<m:Text text="{workOrderDetail>MRU}" />
+									<core:Title text="Meter Read Summary" />
+									<m:Label text="Current Read" />
+									<m:Text text="{workOrderDetail>CurrentRead}" />
+									<m:Label text="Previous Read" />
+									<m:Text text="{workOrderDetail>PreviousRead}" />
+								</form:content>
+							</form:SimpleForm>
+						</blocks>
+					</ObjectPageSubSection>
+					<ObjectPageSubSection title="Meter Read Summary">
+						<blocks>
+							<m:Table
+								id="idMeterReadSummaryTable"
+								items="{
+									path: 'meterSummaryModel>/'
+								}"
+							>
+								<m:columns>
+									<m:Column>
+										<m:Text text="Meter Number" />
+									</m:Column>
+									<m:Column>
+										<m:Text text="Activity" />
+									</m:Column>
+									<m:Column>
+										<m:Text text="Reading" />
+									</m:Column>
+									<m:Column>
+										<m:Text text="Date Last Read" />
+									</m:Column>
+								</m:columns>
+								<m:items>
+									<m:ColumnListItem id="idMeterTableColumnListItem">
+										<m:cells>
+											<m:ObjectIdentifier text="{meterSummaryModel>Serialno}" />
+											<m:Text text="{meterSummaryModel>Ilatx}" />
+											<m:Text text="{meterSummaryModel>LastReading}" />
+											<m:Text text="{
+												path: 'meterSummaryModel>LastRead',
+												type: 'sap.ui.model.type.Date',
+												formatOptions: {
+													style: 'medium'
+												}
+											}" />
+										</m:cells>
+									</m:ColumnListItem>
+								</m:items>
+							</m:Table>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Map Route">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<!-- <m:Text text="Map Here" /> -->
+							<gmap:GoogleMap
+								address="#{workOrderDetail>HouseNo}, {workOrderDetail>Street}, {workOrderDetail>City1}, {workOrderDetail>PostCode1}, {workOrderDetail>State}, {workOrderDetail>Country}"
+								setRoute="false"
+								height="600px"
+							/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+		<footer>
+			<m:OverflowToolbar>
+				<m:ToolbarSpacer />
+				<m:Button
+					type="Accept"
+					text="Save"
+				/>
+				<m:Button
+					type="Reject"
+					text="Cancel"
+				/>
+			</m:OverflowToolbar>
+		</footer>
+	</ObjectPageLayout>
+</mvc:View>

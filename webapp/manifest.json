@@ -1,0 +1,156 @@
+{
+  "_version": "1.17.0",
+  "sap.app": {
+    "id": "mobility",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.12.5",
+      "toolsId": "c3df58a3-19b9-4563-b85f-5fd4bf6fd6cf"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/",
+        "type": "OData",
+        "settings": {
+          "annotations": [],
+          "odataVersion": "2.0"
+        }
+      },
+      "workOrdersData": {
+        "uri": "localService/data/OrderListSet.json",
+        "type": "JSON"
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.71.67",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.f": {},
+        "sap.suite.ui.generic.template": {},
+        "sap.ui.comp": {},
+        "sap.ui.generic.app": {},
+        "sap.ui.table": {},
+        "sap.ushell": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "mobility.i18n.i18n"
+        }
+      },
+      "workOrderDetail": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "useBatch": false
+        }
+      },
+      "workorders": {
+        "type": "sap.ui.model.json.JSONModel",
+        "dataSource": "workOrdersData"
+      },
+      "defaultModel": {
+        "type": "sap.ui.model.json.JSONModel"
+      },
+      "workOrdersAddressModel": {
+        "type": "sap.ui.model.json.JSONModel"
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.f.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "mobility.view",
+        "controlId": "fcl",
+        "clearControlAggregation": false
+      },
+      "routes": [
+        {
+          "pattern": "WorkOrdersList",
+          "name": "WorkOrdersList",
+          "target": ["WorkOrdersList"]
+        },
+        {
+          "pattern": ":layout:",
+          "name": "WorkOrdersList",
+          "target": ["WorkOrdersList"]
+        },
+        {
+          "pattern": "WorkOrdersListMap/{layout}",
+          "name": "WorkOrdersListMap",
+          "target": ["WorkOrdersList", "WorkOrdersListMap"]
+        },
+        {
+          "pattern": "WorkOrder/{orderType}/{orderId}/{layout}",
+          "name": "WorkOrdersDetail",
+          "target": ["WorkOrdersList", "WorkOrdersDetail"]
+        }
+      ],
+      "targets": {
+        "WorkOrdersList": {
+          "viewId": "WorkOrdersList",
+          "viewName": "WorkOrdersList",
+          "controlAggregation": "beginColumnPages"
+        },
+        "WorkOrdersDetail": {
+          "viewId": "WorkOrdersDetail",
+          "viewName": "WorkOrdersDetail",
+          "controlAggregation": "midColumnPages"
+        },
+        "WorkOrdersListMap": {
+          "viewId": "WorkOrdersListMap",
+          "viewName": "WorkOrdersListMap",
+          "controlAggregation": "midColumnPages"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "mobility.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "Root"
+    }
+  }
+}

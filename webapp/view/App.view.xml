@@ -1,0 +1,5 @@
+<mvc:View controllerName="mobility.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.f" height="100%">
+    <FlexibleColumnLayout id="fcl" stateChange=".onStateChanged" backgroundDesign="Solid" layout="{/layout}"/>
+</mvc:View>

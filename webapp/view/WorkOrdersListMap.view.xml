@@ -1,0 +1,20 @@
+<mvc:View
+  controllerName="mobility.controller.WorkOrdersListMap"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:gmap="mobility.control"
+  displayBlock="true"
+  height="100%"
+  busyIndicatorDelay="0"
+>
+  <!-- <Text text="empty strings" /> -->
+  <gmap:GoogleMap
+    mapZoom="20"
+    height="600px"
+  />
+  <!-- <gmap:GoogleMap
+    address="#{workOrderDetail>HouseNo}, {workOrderDetail>Street}, {workOrderDetail>City1}, {workOrderDetail>PostCode1}, {workOrderDetail>State}, {workOrderDetail>Country}"
+    setRoute="true"
+    height="600px"
+  /> -->
+</mvc:View>

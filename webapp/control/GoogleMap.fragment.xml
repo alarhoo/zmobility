@@ -1,0 +1,14 @@
+<c:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:c="sap.ui.core"
+>
+  <!-- <VBox> -->
+  <!-- <gmap:GoogleMap
+      address="#{workOrderDetail>HouseNo}, {workOrderDetail>Street}, {workOrderDetail>City1}, {workOrderDetail>PostCode1}, {workOrderDetail>State}, {workOrderDetail>Country}"
+      setRoute="true"
+      height="600px"
+    /> -->
+  <HBox />
+  <Text text="Showing results: {control>/directionText}" />
+  <!-- </VBox> -->
+</c:FragmentDefinition>

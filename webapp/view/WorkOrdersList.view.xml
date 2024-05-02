@@ -1,0 +1,99 @@
+<mvc:View
+	controllerName="mobility.controller.WorkOrdersList"
+	xmlns="sap.m"
+	xmlns:f="sap.f"
+	xmlns:mvc="sap.ui.core.mvc"
+>
+	<f:DynamicPage toggleHeaderOnTitleClick="false">
+		<!-- DynamicPage Title -->
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="Work Orders" />
+				</f:heading>
+			</f:DynamicPageTitle>
+		</f:title>
+		<!-- DynamicPage Content -->
+		<f:content>
+			<VBox fitContainer="true">
+				<OverflowToolbar class="sapFDynamicPageAlignContent">
+					<ToolbarSpacer />
+					<SearchField
+						search=".onSearchFieldWOSearch"
+						width="17.5rem"
+					/>
+					<!-- <OverflowToolbarButton
+						icon="sap-icon://sort"
+						text="Sort"
+						type="Transparent"
+						press=".onSort"
+					/> -->
+				</OverflowToolbar>
+				<Table
+					id="idWorkOrdersTable"
+					items="{
+						path: 'workorders>/',
+						sorter: {
+							path: 'Orderid'
+						}
+					}"
+					class="sapFDynamicPageAlignContent"
+					width="auto"
+				>
+					<columns>
+						<Column>
+							<Text text="OrderType" />
+						</Column>
+						<Column demandPopin="true">
+							<Text text="Actvty Desc" />
+						</Column>
+						<Column demandPopin="true">
+							<Text text="Priority" />
+						</Column>
+						<!-- <Column width="20em" minScreenWidth="Desktop">
+							<Text text="Address"/>
+						</Column>
+						<Column minScreenWidth="Desktop">
+							<Text text="Material"/>
+						</Column>
+						<Column minScreenWidth="Desktop">
+							<Text text="MRU / DispatchID"/>
+						</Column> -->
+					</columns>
+					<items>
+						<ColumnListItem
+							type="Navigation"
+							press=".onColumnListItemWOPress"
+						>
+							<cells>
+								<ObjectIdentifier
+									title="{workorders>OrderType}/{workorders>Pmacttype}"
+									text="{workorders>Orderid}"
+								/>
+								<ObjectAttribute text="{workorders>ActvtyDesc}" />
+								<ObjectAttribute text="{workorders>Priority}" />
+								<!-- <ObjectAttribute text="#{workorders>HouseNo}, {workorders>Street}, {workorders>City1}, {workorders>PostCode1}, {workorders>State}, {workorders>Country}"/>
+                <ObjectIdentifier title="{workorders>Material}" text="{workorders>MaterialDesc}"/>
+                <ObjectAttribute text="{workorders>MRU}/{workorders>DispatchID}"/> -->
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</VBox>
+		</f:content>
+		<!-- DynamicPage Footer -->
+		<f:footer>
+			<OverflowToolbar>
+				<ToolbarSpacer />
+				<Button
+					type="Accept"
+					text="Accept"
+				/>
+				<Button
+					type="Reject"
+					text="Reject"
+				/>
+			</OverflowToolbar>
+		</f:footer>
+	</f:DynamicPage>
+</mvc:View>

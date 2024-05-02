@@ -1,0 +1,2486 @@
+[
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998697',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998697',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998697',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998697',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998697',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998697',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998697",
+    "OrderType": "MT01",
+    "Pmacttype": "210",
+    "Systcond": "O",
+    "FunctLoc": "5101152768",
+    "FunclocDisp": "5101152768",
+    "FunclocDesc": "10' SO OF WALK",
+    "FunclocCreate": "",
+    "Equipment": "9055015448",
+    "EquipmentDesc": "MTR - 5/8 Badger RCDL Disc-Plastic",
+    "EquipmentCreate": "",
+    "Serialno": "55015448",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202192",
+    "Priority": "2",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move in order from CRM",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "ASHLEY BROOK TRL",
+    "EquipmentDisplay": "9055015448",
+    "FunclocDisplay": "5101152768",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move in Read - New Customer",
+    "HouseNo": "2720",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101171596",
+    "Supplement": "209",
+    "MRU": "18_6415",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": ""
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20995552',OrderType='MT04')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20995552',OrderType='MT04')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20995552',OrderType='MT04')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20995552',OrderType='MT04')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20995552',OrderType='MT04')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20995552',OrderType='MT04')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20995552",
+    "OrderType": "MT04",
+    "Pmacttype": "245",
+    "Systcond": "",
+    "FunctLoc": "5101210081",
+    "FunclocDisp": "5101210081",
+    "FunclocDesc": "N SSM",
+    "FunclocCreate": "",
+    "Equipment": "9009002711",
+    "EquipmentDesc": "Meter - 5/8 Meter lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "9002711",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202309",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Customer requested Re-read from IVR",
+    "Name1": "",
+    "PostCode1": "35206",
+    "City1": "BIRMINGHAM",
+    "Street": "81ST ST S",
+    "EquipmentDisplay": "9009002711",
+    "FunclocDisplay": "5101210081",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Re-read Meter - Non Chargable",
+    "HouseNo": "784",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101035190",
+    "Supplement": "",
+    "MRU": "16_5580",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996200',OrderType='MT04')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996200',OrderType='MT04')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996200',OrderType='MT04')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996200',OrderType='MT04')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996200',OrderType='MT04')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996200',OrderType='MT04')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20996200",
+    "OrderType": "MT04",
+    "Pmacttype": "245",
+    "Systcond": "",
+    "FunctLoc": "5101038103",
+    "FunclocDisp": "5101038103",
+    "FunclocDesc": "10' S DRIVE",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "Meter - 5/8 Neptune lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "15019373",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202305",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Re-read Meter please rread meter and ver",
+    "Name1": "",
+    "PostCode1": "35173",
+    "City1": "BIRMINGHAM",
+    "Street": "SMITH SIMS RD",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "5101038103",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Re-read Meter - Non Chargable",
+    "HouseNo": "2775",
+    "Building": "RESIDENTIAL",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101224926",
+    "Supplement": "",
+    "MRU": "18_6376",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996553',OrderType='MT04')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996553',OrderType='MT04')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996553',OrderType='MT04')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996553',OrderType='MT04')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996553',OrderType='MT04')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996553',OrderType='MT04')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20996553",
+    "OrderType": "MT04",
+    "Pmacttype": "245",
+    "Systcond": "",
+    "FunctLoc": "5101068764",
+    "FunclocDisp": "5101068764",
+    "FunclocDesc": "EPL - WSM",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "Meter - 5/8 Meter lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "22004361",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202309",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Re-read Meter",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "WELLINGTON WAY",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "5101068764",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Re-read Meter - Non Chargable",
+    "HouseNo": "4014",
+    "Building": "RES",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101200271",
+    "Supplement": "",
+    "MRU": "18_6411",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996556',OrderType='MT04')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996556',OrderType='MT04')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996556',OrderType='MT04')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996556',OrderType='MT04')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996556',OrderType='MT04')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996556',OrderType='MT04')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20996556",
+    "OrderType": "MT04",
+    "Pmacttype": "245",
+    "Systcond": "",
+    "FunctLoc": "5101143831",
+    "FunclocDisp": "5101143831",
+    "FunclocDesc": "NCH 2' S/S DR 30' FROM RD",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "Meter - 5/8 Hershey lead_old",
+    "EquipmentCreate": "",
+    "Serialno": "53053606",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202313",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Re-read Meter customer request re-read//",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "SHIRLEY DR",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "5101143831",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Re-read Meter - Non Chargable",
+    "HouseNo": "2804",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101178151",
+    "Supplement": "",
+    "MRU": "18_6411",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996794',OrderType='MT04')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996794',OrderType='MT04')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996794',OrderType='MT04')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996794',OrderType='MT04')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996794',OrderType='MT04')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996794',OrderType='MT04')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20996794",
+    "OrderType": "MT04",
+    "Pmacttype": "245",
+    "Systcond": "",
+    "FunctLoc": "5101066392",
+    "FunclocDisp": "5101066392",
+    "FunclocDesc": "30' W DR 20' OFF RD",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "Meter - 5/8 Meter lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "30002104",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202309",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Re-read Meter cust inq mtr needs to be c",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "PARK AVE",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "5101066392",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Re-read Meter - Non Chargable",
+    "HouseNo": "1414",
+    "Building": "RES",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101174234",
+    "Supplement": "",
+    "MRU": "18_6410",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996931',OrderType='MT04')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996931',OrderType='MT04')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996931',OrderType='MT04')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996931',OrderType='MT04')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996931',OrderType='MT04')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996931',OrderType='MT04')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20996931",
+    "OrderType": "MT04",
+    "Pmacttype": "245",
+    "Systcond": "",
+    "FunctLoc": "5101038321",
+    "FunclocDisp": "5101038321",
+    "FunclocDesc": "1/2 LOT 6' FR RD",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "METER-5/8 Neptune T-10 PD-Low Lead",
+    "EquipmentCreate": "",
+    "Serialno": "15014031",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202280",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Re-read Meter",
+    "Name1": "",
+    "PostCode1": "35173",
+    "City1": "BIRMINGHAM",
+    "Street": "MOUNTAIN RIDGE RD",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "5101038321",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Re-read Meter - Non Chargable",
+    "HouseNo": "6453",
+    "Building": "RES",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101185245",
+    "Supplement": "",
+    "MRU": "18_6376",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996972',OrderType='MT04')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996972',OrderType='MT04')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996972',OrderType='MT04')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996972',OrderType='MT04')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996972',OrderType='MT04')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20996972',OrderType='MT04')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20996972",
+    "OrderType": "MT04",
+    "Pmacttype": "245",
+    "Systcond": "",
+    "FunctLoc": "5101002154",
+    "FunclocDisp": "5101002154",
+    "FunclocDesc": "WPL - ESM",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "Meter - 5/8 Neptune lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "1105135",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202305",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Re-read Meter",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "CAMBRIDGE DR",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "5101002154",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Re-read Meter - Non Chargable",
+    "HouseNo": "4021",
+    "Building": "RES",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101200763",
+    "Supplement": "",
+    "MRU": "18_6415",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997114',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997114',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997114',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997114',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997114',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997114',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20997114",
+    "OrderType": "MT01",
+    "Pmacttype": "210",
+    "Systcond": "",
+    "FunctLoc": "5101163885",
+    "FunclocDisp": "5101163885",
+    "FunclocDesc": "SPL - NSM",
+    "FunclocCreate": "",
+    "Equipment": "10049776",
+    "EquipmentDesc": "MTR - 5/8 Badger RCDL Disc-Plastic",
+    "EquipmentCreate": "",
+    "Serialno": "10001835",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202192",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move in order from CRM",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "SPAULDING PL",
+    "EquipmentDisplay": "10049776",
+    "FunclocDisplay": "5101163885",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move in Read - New Customer",
+    "HouseNo": "2324",
+    "Building": "RES",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101211514",
+    "Supplement": "",
+    "MRU": "18_6405",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997659',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997659',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997659',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997659',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997659',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997659',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20997659",
+    "OrderType": "MT01",
+    "Pmacttype": "224",
+    "Systcond": "",
+    "FunctLoc": "5101185084",
+    "FunclocDisp": "5101185084",
+    "FunclocDesc": "1/2 HOUSE 20' FROM RD",
+    "FunclocCreate": "",
+    "Equipment": "9006045453",
+    "EquipmentDesc": "Meter - 5/8 Badger Lead _Old",
+    "EquipmentCreate": "",
+    "Serialno": "6045453",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202327",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move Out Transfer order",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "SUNRISE DR",
+    "EquipmentDisplay": "9006045453",
+    "FunclocDisplay": "5101185084",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move Out Read - Transfer",
+    "HouseNo": "2751",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101179266",
+    "Supplement": "",
+    "MRU": "18_6411",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997999',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997999',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997999',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997999',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997999',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20997999',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20997999",
+    "OrderType": "MT01",
+    "Pmacttype": "210",
+    "Systcond": "",
+    "FunctLoc": "5101036787",
+    "FunclocDisp": "5101036787",
+    "FunclocDesc": "WALK",
+    "FunclocCreate": "",
+    "Equipment": "10011916",
+    "EquipmentDesc": "METER-5/8 Neptune T-10 PD-Low Lead",
+    "EquipmentCreate": "",
+    "Serialno": "15026667",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202280",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move in order from CRM",
+    "Name1": "",
+    "PostCode1": "35206",
+    "City1": "BIRMINGHAM",
+    "Street": "DIVISION AVE",
+    "EquipmentDisplay": "10011916",
+    "FunclocDisplay": "5101036787",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move in Read - New Customer",
+    "HouseNo": "8512",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101024101",
+    "Supplement": "",
+    "MRU": "13_5150",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998137',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998137',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998137',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998137',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998137',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998137',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998137",
+    "OrderType": "MT01",
+    "Pmacttype": "210",
+    "Systcond": "",
+    "FunctLoc": "5101198995",
+    "FunclocDisp": "5101198995",
+    "FunclocDesc": "WS DR",
+    "FunclocCreate": "",
+    "Equipment": "9008014173",
+    "EquipmentDesc": "Meter - 5/8 Meter lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "8014173",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202309",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move in order from CRM",
+    "Name1": "",
+    "PostCode1": "35206",
+    "City1": "BIRMINGHAM",
+    "Street": "10TH AVE S",
+    "EquipmentDisplay": "9008014173",
+    "FunclocDisplay": "5101198995",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move in Read - New Customer",
+    "HouseNo": "7833",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101059163",
+    "Supplement": "",
+    "MRU": "16_5600",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998277',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998277',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998277',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998277',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998277',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998277',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998277",
+    "OrderType": "MT01",
+    "Pmacttype": "220",
+    "Systcond": "",
+    "FunctLoc": "5101040959",
+    "FunclocDisp": "5101040959",
+    "FunclocDesc": "E",
+    "FunclocCreate": "",
+    "Equipment": "9015006393",
+    "EquipmentDesc": "METER-5/8 Neptune T-10 PD-Low Lead",
+    "EquipmentCreate": "",
+    "Serialno": "15006393",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202280",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move Out Order",
+    "Name1": "",
+    "PostCode1": "35206",
+    "City1": "BIRMINGHAM",
+    "Street": "DIVISION AVE",
+    "EquipmentDisplay": "9015006393",
+    "FunclocDisplay": "5101040959",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move Out Read",
+    "HouseNo": "7306",
+    "Building": "00",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101003938",
+    "Supplement": "",
+    "MRU": "16_5570",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998363',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998363',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998363',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998363',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998363',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998363',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998363",
+    "OrderType": "MT01",
+    "Pmacttype": "247",
+    "Systcond": "",
+    "FunctLoc": "5101212848",
+    "FunclocDisp": "5101212848",
+    "FunclocDesc": "5' E OF WCH",
+    "FunclocCreate": "",
+    "Equipment": "9008020140",
+    "EquipmentDesc": "Meter - 5/8 Meter lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "8020140",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202309",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Please go by to verify reading with pic",
+    "Name1": "",
+    "PostCode1": "35212",
+    "City1": "BIRMINGHAM",
+    "Street": "66TH ST S",
+    "EquipmentDisplay": "9008020140",
+    "FunclocDisplay": "5101212848",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Go Back By",
+    "HouseNo": "6829",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101075682",
+    "Supplement": "",
+    "MRU": "16_5760",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998406',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998406',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998406',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998406',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998406',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998406',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998406",
+    "OrderType": "MT01",
+    "Pmacttype": "210",
+    "Systcond": "",
+    "FunctLoc": "5101143599",
+    "FunclocDisp": "5101143599",
+    "FunclocDesc": "E/P/L WSM",
+    "FunclocCreate": "",
+    "Equipment": "9053001017",
+    "EquipmentDesc": "Meter - 3/4 Hershey lead_old",
+    "EquipmentCreate": "",
+    "Serialno": "53001017",
+    "MaterialDesc": "3/4 inches",
+    "Material": "202314",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move in order from CRM",
+    "Name1": "",
+    "PostCode1": "35004",
+    "City1": "BIRMINGHAM",
+    "Street": "ELM ST",
+    "EquipmentDisplay": "9053001017",
+    "FunclocDisplay": "5101143599",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move in Read - New Customer",
+    "HouseNo": "1012",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101178065",
+    "Supplement": "",
+    "MRU": "18_6416",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998474',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998474',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998474',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998474',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998474',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998474',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998474",
+    "OrderType": "MT01",
+    "Pmacttype": "210",
+    "Systcond": "",
+    "FunctLoc": "5101216045",
+    "FunclocDisp": "5101216045",
+    "FunclocDesc": "E BLDG 2 M E",
+    "FunclocCreate": "",
+    "Equipment": "9008029708",
+    "EquipmentDesc": "Meter - 5/8 Meter lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "8029708",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202309",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move in order from CRM",
+    "Name1": "",
+    "PostCode1": "35206",
+    "City1": "BIRMINGHAM",
+    "Street": "RUGBY AVE",
+    "EquipmentDisplay": "9008029708",
+    "FunclocDisplay": "5101216045",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move in Read - New Customer",
+    "HouseNo": "7735",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101068789",
+    "Supplement": "G",
+    "MRU": "16_5555",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998534',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998534',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998534',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998534',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998534',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998534',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998534",
+    "OrderType": "MT01",
+    "Pmacttype": "220",
+    "Systcond": "",
+    "FunctLoc": "5101038040",
+    "FunclocDisp": "5101038040",
+    "FunclocDesc": "ECH",
+    "FunclocCreate": "",
+    "Equipment": "9015014541",
+    "EquipmentDesc": "METER-5/8 Neptune T-10 PD-Low Lead",
+    "EquipmentCreate": "",
+    "Serialno": "15014541",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202280",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Move Out Order",
+    "Name1": "",
+    "PostCode1": "35206",
+    "City1": "BIRMINGHAM",
+    "Street": "5TH AVE N",
+    "EquipmentDisplay": "9015014541",
+    "FunclocDisplay": "5101038040",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Move Out Read",
+    "HouseNo": "7803",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101014286",
+    "Supplement": "",
+    "MRU": "13_5045",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998569',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998569',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998569',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998569',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998569',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998569',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998569",
+    "OrderType": "MT01",
+    "Pmacttype": "247",
+    "Systcond": "",
+    "FunctLoc": "5101208680",
+    "FunclocDisp": "5101208680",
+    "FunclocDesc": "4ME",
+    "FunclocCreate": "",
+    "Equipment": "9008015031",
+    "EquipmentDesc": "Meter - 5/8 Meter lead _old",
+    "EquipmentCreate": "",
+    "Serialno": "8015031",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202309",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Please go by to verify reading with pic",
+    "Name1": "",
+    "PostCode1": "35212",
+    "City1": "BIRMINGHAM",
+    "Street": "1ST AVE N",
+    "EquipmentDisplay": "9008015031",
+    "FunclocDisplay": "5101208680",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Go Back By",
+    "HouseNo": "5909",
+    "Building": "00",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101050812",
+    "Supplement": "I",
+    "MRU": "16_5550",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998572',OrderType='MT01')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998572',OrderType='MT01')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998572',OrderType='MT01')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998572',OrderType='MT01')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998572',OrderType='MT01')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='20998572',OrderType='MT01')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "20998572",
+    "OrderType": "MT01",
+    "Pmacttype": "247",
+    "Systcond": "",
+    "FunctLoc": "5101025550",
+    "FunclocDisp": "5101025550",
+    "FunclocDesc": "1/2",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "METER-5/8 Neptune T-10 PD-Low Lead",
+    "EquipmentCreate": "",
+    "Serialno": "15029218",
+    "MaterialDesc": "5/8 inches",
+    "Material": "202280",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Go Back By Pls inspect for a leak at the",
+    "Name1": "",
+    "PostCode1": "35206",
+    "City1": "BIRMINGHAM",
+    "Street": "74TH ST N",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "5101025550",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Go Back By",
+    "HouseNo": "4504",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "6101059639",
+    "Supplement": "",
+    "MRU": "13_5055",
+    "DispatchID": "147",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014933',OrderType='MT08')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014933',OrderType='MT08')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014933',OrderType='MT08')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014933',OrderType='MT08')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014933',OrderType='MT08')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014933',OrderType='MT08')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "30014933",
+    "OrderType": "MT08",
+    "Pmacttype": "205",
+    "Systcond": "",
+    "FunctLoc": "7101001165",
+    "FunclocDisp": "7101001165",
+    "FunclocDesc": "",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "",
+    "EquipmentCreate": "",
+    "Serialno": "",
+    "MaterialDesc": "",
+    "Material": "",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Cl.Case - Others",
+    "Name1": "",
+    "PostCode1": "35209",
+    "City1": "BIRMINGHAM",
+    "Street": "REDFERN ST",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "7101001165",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Cl.Case - Others",
+    "HouseNo": "324",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "",
+    "Supplement": "",
+    "MRU": "",
+    "DispatchID": "",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014934',OrderType='MT08')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014934',OrderType='MT08')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014934',OrderType='MT08')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014934',OrderType='MT08')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014934',OrderType='MT08')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014934',OrderType='MT08')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "30014934",
+    "OrderType": "MT08",
+    "Pmacttype": "208",
+    "Systcond": "",
+    "FunctLoc": "7101001165",
+    "FunclocDisp": "7101001165",
+    "FunclocDesc": "",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "",
+    "EquipmentCreate": "",
+    "Serialno": "",
+    "MaterialDesc": "",
+    "Material": "",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Inspection-PrivateMeters/Pools",
+    "Name1": "",
+    "PostCode1": "35209",
+    "City1": "BIRMINGHAM",
+    "Street": "REDFERN ST",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "7101001165",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Inspection-PrivateMeters/Pools",
+    "HouseNo": "324",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "",
+    "Supplement": "",
+    "MRU": "",
+    "DispatchID": "",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014935',OrderType='MT08')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014935',OrderType='MT08')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014935',OrderType='MT08')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014935',OrderType='MT08')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014935',OrderType='MT08')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014935',OrderType='MT08')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "30014935",
+    "OrderType": "MT08",
+    "Pmacttype": "209",
+    "Systcond": "",
+    "FunctLoc": "7101001165",
+    "FunclocDisp": "7101001165",
+    "FunclocDesc": "",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "",
+    "EquipmentCreate": "",
+    "Serialno": "",
+    "MaterialDesc": "",
+    "Material": "",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Inspection - Taps",
+    "Name1": "",
+    "PostCode1": "35209",
+    "City1": "BIRMINGHAM",
+    "Street": "REDFERN ST",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "7101001165",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Inspection - Taps",
+    "HouseNo": "324",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "",
+    "Supplement": "",
+    "MRU": "",
+    "DispatchID": "",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  },
+  {
+    "__metadata": {
+      "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014936',OrderType='MT08')",
+      "uri_extensions": [],
+      "type": "ZUTE_ERP_UT_WORK_ORDER_SRV.OrderList",
+      "type_extensions": [],
+      "self": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014936',OrderType='MT08')",
+      "self_link_extensions": [{ "name": "title", "value": "OrderList", "namespaceURI": null }],
+      "properties": {
+        "OrderAtchmtSet": { "extensions": [{ "name": "title", "value": "OrderAtchmtSet", "namespaceURI": null }] },
+        "WoOperationSet": { "extensions": [{ "name": "title", "value": "WoOperationSet", "namespaceURI": null }] },
+        "Floc_LtextSet": { "extensions": [{ "name": "title", "value": "Floc_LtextSet", "namespaceURI": null }] },
+        "ServiceOrderSet": { "extensions": [{ "name": "title", "value": "ServiceOrderSet", "namespaceURI": null }] },
+        "Orderid": { "type": "Edm.String", "extensions": [] },
+        "OrderType": { "type": "Edm.String", "extensions": [] },
+        "Pmacttype": { "type": "Edm.String", "extensions": [] },
+        "Systcond": { "type": "Edm.String", "extensions": [] },
+        "FunctLoc": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisp": { "type": "Edm.String", "extensions": [] },
+        "FunclocDesc": { "type": "Edm.String", "extensions": [] },
+        "FunclocCreate": { "type": "Edm.String", "extensions": [] },
+        "Equipment": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDesc": { "type": "Edm.String", "extensions": [] },
+        "EquipmentCreate": { "type": "Edm.String", "extensions": [] },
+        "Serialno": { "type": "Edm.String", "extensions": [] },
+        "MaterialDesc": { "type": "Edm.String", "extensions": [] },
+        "Material": { "type": "Edm.String", "extensions": [] },
+        "Priority": { "type": "Edm.String", "extensions": [] },
+        "SysStatus": { "type": "Edm.String", "extensions": [] },
+        "UserSt": { "type": "Edm.String", "extensions": [] },
+        "UserStatus": { "type": "Edm.String", "extensions": [] },
+        "ShortText": { "type": "Edm.String", "extensions": [] },
+        "Name1": { "type": "Edm.String", "extensions": [] },
+        "PostCode1": { "type": "Edm.String", "extensions": [] },
+        "City1": { "type": "Edm.String", "extensions": [] },
+        "Street": { "type": "Edm.String", "extensions": [] },
+        "EquipmentDisplay": { "type": "Edm.String", "extensions": [] },
+        "FunclocDisplay": { "type": "Edm.String", "extensions": [] },
+        "OrderSortno": { "type": "Edm.String", "extensions": [] },
+        "ActvtyDesc": { "type": "Edm.String", "extensions": [] },
+        "HouseNo": { "type": "Edm.String", "extensions": [] },
+        "Building": { "type": "Edm.String", "extensions": [] },
+        "Country": { "type": "Edm.String", "extensions": [] },
+        "State": { "type": "Edm.String", "extensions": [] },
+        "Premise": { "type": "Edm.String", "extensions": [] },
+        "Supplement": { "type": "Edm.String", "extensions": [] },
+        "MRU": { "type": "Edm.String", "extensions": [] },
+        "DispatchID": { "type": "Edm.String", "extensions": [] }
+      }
+    },
+    "OrderAtchmtSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014936',OrderType='MT08')/OrderAtchmtSet"
+      }
+    },
+    "WoOperationSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014936',OrderType='MT08')/WoOperationSet"
+      }
+    },
+    "Floc_LtextSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014936',OrderType='MT08')/Floc_LtextSet"
+      }
+    },
+    "ServiceOrderSet": {
+      "__deferred": {
+        "uri": "https://web1.bwwb.org/sap/opu/odata/sap/ZUTE_ERP_UT_WORK_ORDER_SRV/OrderListSet(Orderid='30014936',OrderType='MT08')/ServiceOrderSet"
+      }
+    },
+    "Orderid": "30014936",
+    "OrderType": "MT08",
+    "Pmacttype": "201",
+    "Systcond": "",
+    "FunctLoc": "7101001165",
+    "FunclocDisp": "7101001165",
+    "FunclocDesc": "",
+    "FunclocCreate": "",
+    "Equipment": "",
+    "EquipmentDesc": "",
+    "EquipmentCreate": "",
+    "Serialno": "",
+    "MaterialDesc": "",
+    "Material": "",
+    "Priority": "9",
+    "SysStatus": "",
+    "UserSt": "",
+    "UserStatus": "",
+    "ShortText": "Cl.Case - Verify Address",
+    "Name1": "",
+    "PostCode1": "35209",
+    "City1": "BIRMINGHAM",
+    "Street": "REDFERN ST",
+    "EquipmentDisplay": "",
+    "FunclocDisplay": "7101001165",
+    "OrderSortno": "0000",
+    "ActvtyDesc": "Cl.Case - Verify Address",
+    "HouseNo": "324",
+    "Building": "",
+    "Country": "US",
+    "State": "AL",
+    "Premise": "",
+    "Supplement": "",
+    "MRU": "",
+    "DispatchID": "",
+    "seqFieldVisibility": false,
+    "OrderStatus": "sap-icon://email"
+  }
+]
