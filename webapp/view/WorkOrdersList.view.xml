@@ -22,19 +22,16 @@
 						search=".onSearchFieldWOSearch"
 						width="17.5rem"
 					/>
-					<!-- <OverflowToolbarButton
-						icon="sap-icon://sort"
-						text="Sort"
-						type="Transparent"
-						press=".onSort"
-					/> -->
 				</OverflowToolbar>
-				<Table
+				<!-- <Table
 					id="idWorkOrdersTable"
 					items="{
-						path: 'workorders>/',
+						path: 'workOrderDetail>/OrderListSet',
 						sorter: {
-							path: 'Orderid'
+							path: 'Priority'
+						},
+						events: {
+							dataReceived: '.onDataReceived'
 						}
 					}"
 					class="sapFDynamicPageAlignContent"
@@ -50,15 +47,6 @@
 						<Column demandPopin="true">
 							<Text text="Priority" />
 						</Column>
-						<!-- <Column width="20em" minScreenWidth="Desktop">
-							<Text text="Address"/>
-						</Column>
-						<Column minScreenWidth="Desktop">
-							<Text text="Material"/>
-						</Column>
-						<Column minScreenWidth="Desktop">
-							<Text text="MRU / DispatchID"/>
-						</Column> -->
 					</columns>
 					<items>
 						<ColumnListItem
@@ -67,18 +55,73 @@
 						>
 							<cells>
 								<ObjectIdentifier
-									title="{workorders>OrderType}/{workorders>Pmacttype}"
-									text="{workorders>Orderid}"
+									title="{workOrderDetail>OrderType}/{workOrderDetail>Pmacttype}"
+									text="{workOrderDetail>Orderid}"
 								/>
-								<ObjectAttribute text="{workorders>ActvtyDesc}" />
-								<ObjectAttribute text="{workorders>Priority}" />
-								<!-- <ObjectAttribute text="#{workorders>HouseNo}, {workorders>Street}, {workorders>City1}, {workorders>PostCode1}, {workorders>State}, {workorders>Country}"/>
-                <ObjectIdentifier title="{workorders>Material}" text="{workorders>MaterialDesc}"/>
-                <ObjectAttribute text="{workorders>MRU}/{workorders>DispatchID}"/> -->
+								<ObjectAttribute text="{workOrderDetail>ActvtyDesc}" />
+								<ObjectAttribute text="{workOrderDetail>ShortText}" />
+								<ObjectStatus
+									class="sapUiSmallMarginBottom"
+									text="{
+										path: 'workOrderDetail>Priority',
+										formatter: '.getPriorityText'
+									}"
+									icon="{
+										path: 'workOrderDetail>Priority',
+										formatter: '.getPriorityIcon'
+									}"
+									state="{
+										path: 'workOrderDetail>Priority',
+										formatter: '.getPriorityState'
+									}"
+								/>
 							</cells>
 						</ColumnListItem>
 					</items>
-				</Table>
+				</Table> -->
+				<List
+					id="idOrderList"
+					headerText="Workorders"
+					items="{
+						path: 'workOrderDetail>/OrderListSet',
+						sorter: {
+							path: 'Priority'
+						},
+						events: {
+							dataReceived: '.onDataReceived'
+						}
+					}"
+					class="sapFDynamicPageAlignContent"
+					width="auto"
+				>
+					<ObjectListItem
+						title="{workOrderDetail>Orderid}"
+						number="{workOrderDetail>OrderType}"
+						numberUnit="{workOrderDetail>Pmacttype}"
+						type="Navigation"
+						press="onColumnListItemWOPress"
+					>
+						<ObjectAttribute text="{workOrderDetail>ActvtyDesc}" />
+						<ObjectAttribute text="{workOrderDetail>ShortText}" />
+						<firstStatus>
+							<ObjectStatus
+								class="sapUiSmallMarginBottom"
+								text="{
+									path: 'workOrderDetail>Priority',
+									formatter: '.getPriorityText'
+								}"
+								icon="{
+									path: 'workOrderDetail>Priority',
+									formatter: '.getPriorityIcon'
+								}"
+								state="{
+									path: 'workOrderDetail>Priority',
+									formatter: '.getPriorityState'
+								}"
+							/>
+						</firstStatus>
+					</ObjectListItem>
+				</List>
 			</VBox>
 		</f:content>
 		<!-- DynamicPage Footer -->

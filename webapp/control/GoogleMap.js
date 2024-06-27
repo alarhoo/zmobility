@@ -48,7 +48,7 @@ sap.ui.define(
           },
           setRoute: {
             type: 'boolean',
-            defaultValue: false,
+            defaultValue: true,
           },
         },
       },

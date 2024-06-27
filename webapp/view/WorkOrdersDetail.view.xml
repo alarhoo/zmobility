@@ -67,25 +67,6 @@
 						visible="{= ${/actionButtonsInfo/midColumn/closeColumn} !== null }"
 					/>
 				</navigationActions>
-				<!-- <actions>
-					<m:ToggleButton
-						text="Edit"
-						type="Emphasized"
-						press=".onEditToggleButtonPress"
-					/>
-					<m:Button
-						text="Delete"
-						type="Transparent"
-					/>
-					<m:Button
-						text="Copy"
-						type="Transparent"
-					/>
-					<m:Button
-						icon="sap-icon://action"
-						type="Transparent"
-					/>
-				</actions> -->
 			</ObjectPageDynamicHeaderTitle>
 		</headerTitle>
 		<headerContent>
@@ -214,7 +195,7 @@
 							<!-- <m:Text text="Map Here" /> -->
 							<gmap:GoogleMap
 								address="#{workOrderDetail>HouseNo}, {workOrderDetail>Street}, {workOrderDetail>City1}, {workOrderDetail>PostCode1}, {workOrderDetail>State}, {workOrderDetail>Country}"
-								setRoute="false"
+								setRoute="true"
 								height="600px"
 							/>
 						</blocks>

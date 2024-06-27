@@ -76,7 +76,18 @@
         "dataSource": "mainService",
         "preload": true,
         "settings": {
-          "useBatch": false
+          "useBatch": false,
+          "defaultBindingMode": "TwoWay",
+          "json": false
+        }
+      },
+      "workOrderDetail1": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "useBatch": false,
+          "defaultBindingMode": "TwoWay",
+          "json": true
         }
       },
       "workorders": {
